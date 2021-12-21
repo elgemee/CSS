@@ -1,0 +1,44 @@
+
+        /* Comentarios en CSS */
+        .encabezado {
+            /* font-size tamaño de fuente 
+            medidas comunes: px, %, cm, in, rem*/
+            font-size: 72px; 
+            /* color de fuente*/
+            color: chartreuse;
+            /* background-color es para el color de fondo */
+            background-color: #03045e;
+            /* text-align: center: Nos permite alinear texto*/ 
+            text-align: center;
+            /* text transform= Editar texto
+            uppercase: Mayusculas
+            lowercase: Minusculas
+            */
+            text-transform:capitalize;
+        }
+        body {
+            background-color: darkslategrey;
+        }
+
+        #texto {
+            color: #000;
+            background-color: oldlace;
+            font-size: 25px;
+            /* font style cambiar letra a cursiva*/
+            font-style: italic;
+        }
+
+        
+        .texto {
+            color: midnightblue;
+            background-color: mediumvioletred;
+        }
+        p {
+            color: white;
+            background-color: dimgray;
+        }
+        p{
+            color: gold;
+            background-color: maroon;
+        }
+    

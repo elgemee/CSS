@@ -1,0 +1,40 @@
+body {
+    background-color: silver;
+}
+
+h1 {
+    text-align:end;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 24px;
+}
+span {
+    color: red
+}
+.naranja {
+    color: orange;
+    font-weight: bolder
+    
+}
+.fechas {
+    color: orange;
+}
+.autor {
+    text-align: center;
+}
+.blanco {
+    color: green;
+    background-color: white;
+    font-style: italic;
+}
+.parrafo {
+    text-align: justify;
+}
