@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(163, 163, 163);
+}
+
+
+h1 {
+    
+    text-align: center;
+}
+h2 {
+    color: honeydew;
+    background-color: gray;
+}
+
+
+
+.html {
+
+width: 212px;
+height: 190x;
+
+
+
+}
+
+.css {
+  
+width: 212px;
+height: 190px;
+
+}
+
+
+.fecha {
+    color: orangered;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.programa {
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+}

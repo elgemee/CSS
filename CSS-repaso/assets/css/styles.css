@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Roboto:ital@0;1&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header  */
+.menu {
+    background-color: rgb(255, 191, 191);
+    height: 50px;
+    
+}
+
+.menu ul {
+    
+    margin: 0 auto; /*arriba y abajo 0, derecha y izquierda auto*/
+    width: max-content; /* para tener la medida exacta*/
+    text-align: center;
+
+    
+
+}
+
+.elemento {
+    display: inline;
+    margin: 0 20px;
+   /* margin: superior derecha inferior izquierda; */
+   padding: 10px;
+    
+}
+/* .menu .elemento:hover {
+    background-color: yellow; 
+    } */
+
+
+.elemento a {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(153, 157, 161);
+    line-height: 50px;  /*centra, igual al height del .menu */
+    font-family: 'Be Vietnam Pro', sans-serif;
+    transition: color 3s;
+}
+     /* a que elemento-tiempo */
+/* font-family: 'Roboto', sans-serif; */
+
+
+
+
+.elemento a:hover { /* cuando pasas el mouse cambia */
+    color: blue;
+    /* transform: scale(2); una imagen cambia de tamaño*/
+
+
+}

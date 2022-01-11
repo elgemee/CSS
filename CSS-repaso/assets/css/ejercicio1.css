@@ -1,0 +1,50 @@
+body {
+    background-color: lightgrey;
+}
+
+.titulo-principal {
+    text-align: center;
+    letter-spacing: 10px;
+
+}
+
+.contenido-principal {
+    width: 90%;   /*ancho de la pagina */
+    margin: 0 auto; /*centra la pantalla*/
+}
+
+/* .contenido-principal article {
+    width: 80%;
+    margin: 0 auto;
+} */
+
+.contenido-principal .encabezado {
+    background-color: gray;
+    color: white;
+    padding: 10px 5px; /*arriba y abajo-izquierda y derecha*/
+    font-size: 24px;
+}
+
+.contenido-principal .contenido {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contenido-principal .contenido-imagen {
+    float: left; /*se flote a la izq*/
+}
+
+.contenido-principal .contenido-texto {
+    margin-left: 140px;
+}
+
+.contenido-principal .contenido-texto p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+/* Pone debajo del Float
+ .clearfix {
+    float: none;
+    clear: both; limpiado a la izquierda y a la derecha
+} */
